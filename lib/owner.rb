@@ -65,7 +65,6 @@ class Owner
     @pets.each_key do |type|
       @pets[type].each {|pet| pet.mood = "nervous"}
     end
-    binding.pry
     @pets.transform_values! {|pets| pets.clear}
   end
 end
