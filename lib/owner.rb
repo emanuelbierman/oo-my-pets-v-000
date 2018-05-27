@@ -26,7 +26,7 @@ class Owner
 
   def say_species
     binding.pry
-    puts "I am a #{@species}."
+    return "I am a #{@species}."
   end
 
   def buy_fish(fish)
