@@ -62,7 +62,7 @@ class Owner
   end
 
   def sell_pets
-    @pets
+    @pets.
     @pets.values {|pets| pets.clear}
   end
 end
