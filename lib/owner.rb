@@ -1,5 +1,6 @@
 class Owner
   attr_accessor :owner, :fish, :cat, :dog
+  attr_reader :species
 
   @@all = []
 
