@@ -44,7 +44,8 @@ class Owner
   end
 
   def walk_dogs
-    @pets[:dogs].map |dog|
-    
+    @pets[:dogs].map do |dog|
+      
+    end
   end
 end
