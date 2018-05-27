@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor 
+  attr_accessor :owner, :fish, :cat, :dog
 
-  
+
 end
