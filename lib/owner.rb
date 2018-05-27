@@ -63,7 +63,7 @@ class Owner
 
   def sell_pets
     @pets.each_pair do |type, pets|
-      @pets[type]
+      @pets[type].each {}
     end
     @pets.values {|pets| pets.clear}
   end
