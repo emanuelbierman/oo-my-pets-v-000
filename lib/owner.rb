@@ -22,6 +22,6 @@ class Owner
   end
 
   def buy_fish(fish)
-    @fish = fish
+    @fish = Fish.new(fish)
   end
 end
