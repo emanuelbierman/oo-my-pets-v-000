@@ -67,4 +67,8 @@ class Owner
       @pets[type].clear
     end
   end
+
+  def list_pets
+
+  end
 end
